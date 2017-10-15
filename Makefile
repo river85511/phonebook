@@ -12,7 +12,7 @@ all: $(GIT_HOOKS) $(EXEC)
 $(GIT_HOOKS):
 	@scripts/install-git-hooks
 	@echo
-
+ 
 SRCS_common = main.c
 
 phonebook_orig: $(SRCS_common) phonebook_orig.c phonebook_orig.h
